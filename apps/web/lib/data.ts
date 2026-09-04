@@ -1,10 +1,10 @@
 export const properties=[
- {id:'mendoza-casa',name:'Casa entre viñedos',city:'Luján de Cuyo, Mendoza',points:180,guests:4,rating:4.9,image:'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=85'},
- {id:'ilhabela',name:'Casa tropical con pileta',city:'Ilhabela, São Paulo',points:220,guests:6,rating:4.8,image:'https://images.unsplash.com/photo-1600585152915-d208bec867a1?auto=format&fit=crop&w=900&q=85'},
- {id:'palermo',name:'Departamento luminoso en Palermo',city:'Palermo, Buenos Aires',points:110,guests:2,rating:4.9,image:'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85'},
- {id:'bariloche-lake',name:'Cabaña frente al lago',city:'Bariloche, Río Negro',points:240,guests:5,rating:4.9,image:'https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=900&q=85'},
- {id:'floripa-beach',name:'Casa a pasos del mar',city:'Campeche, Florianópolis',points:200,guests:4,rating:4.8,image:'https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=900&q=85'},
- {id:'salta-patio',name:'Casa con patio norteño',city:'Salta Capital, Salta',points:135,guests:3,rating:4.7,image:'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=85'}
+ {id:'mendoza-casa',name:'Casa entre viñedos',city:'Luján de Cuyo, Mendoza',country:'argentina',type:'wine',points:180,guests:4,rating:4.9,image:'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=85'},
+ {id:'ilhabela',name:'Casa tropical con pileta',city:'Ilhabela, São Paulo',country:'brasil',type:'beach',points:220,guests:6,rating:4.8,image:'https://images.unsplash.com/photo-1600585152915-d208bec867a1?auto=format&fit=crop&w=900&q=85'},
+ {id:'palermo',name:'Departamento luminoso en Palermo',city:'Palermo, Buenos Aires',country:'argentina',type:'city',points:110,guests:2,rating:4.9,image:'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85'},
+ {id:'bariloche-lake',name:'Cabaña frente al lago',city:'Bariloche, Río Negro',country:'argentina',type:'nature',points:240,guests:5,rating:4.9,image:'https://images.unsplash.com/photo-1643494555111-df0141d84a62?auto=format&fit=crop&w=900&q=85'},
+ {id:'floripa-beach',name:'Casa a pasos del mar',city:'Campeche, Florianópolis',country:'brasil',type:'beach',points:200,guests:4,rating:4.8,image:'https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=900&q=85'},
+ {id:'salta-patio',name:'Casa con patio norteño',city:'Salta Capital, Salta',country:'argentina',type:'nature',points:135,guests:3,rating:4.7,image:'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=85'}
 ];
 export const hotels=[
  {id:'casa-sur',name:'Casa Sur',city:'Palermo, Buenos Aires',benefit:'20% OFF',rating:4.8,image:'https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=900&q=85'},
@@ -15,10 +15,10 @@ export const hotels=[
  ,{id:'ponta-verde',name:'Ponta Verde Praia',city:'Maceió, Alagoas',benefit:'18% OFF',rating:4.7,image:'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=900&q=85'}
 ];
 export const destinations=[
- {id:'mendoza',name:'Mendoza',description:'Viñedos, montaña y sobremesas largas.',image:'https://images.unsplash.com/photo-1544989164-31dc3c645987?auto=format&fit=crop&w=1200&q=85'},
+ {id:'mendoza',name:'Mendoza',description:'Viñedos, montaña y sobremesas largas.',image:'https://images.unsplash.com/photo-1665254369274-4b459f3ce48c?auto=format&fit=crop&w=1200&q=85'},
  {id:'buenos-aires',name:'Buenos Aires',description:'Barrios para caminar y cultura viva.',image:'https://images.unsplash.com/photo-1589909202802-8f4aadce1849?auto=format&fit=crop&w=1200&q=85'},
  {id:'florianopolis',name:'Florianópolis',description:'Playas, senderos y ritmo de isla.',image:'https://images.unsplash.com/photo-1515894347712-1d9bd6d8312f?auto=format&fit=crop&w=1200&q=85'},
- {id:'bariloche',name:'Bariloche',description:'Lagos y bosque patagónico.',image:'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=85'},
+ {id:'bariloche',name:'Bariloche',description:'Lagos y bosque patagónico.',image:'https://images.unsplash.com/photo-1643494555111-df0141d84a62?auto=format&fit=crop&w=1200&q=85'},
  {id:'rio',name:'Río de Janeiro',description:'Mar, ciudad y naturaleza.',image:'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=1200&q=85'}
 ];
 export const flightRoutes=[
