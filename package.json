@@ -1,8 +1,9 @@
 {
-  "name": "troca-mvp",
-  "version": "0.1.0",
+  "name": "troca",
   "private": true,
-  "scripts": {"dev": "next dev", "build": "next build", "start": "next start", "lint": "next lint"},
-  "dependencies": {"next": "14.2.24", "react": "18.3.1", "react-dom": "18.3.1", "lucide-react": "^0.468.0"},
-  "devDependencies": {"typescript": "^5.7.2", "@types/node": "^22.10.2", "@types/react": "^18.3.12", "@types/react-dom": "^18.3.1"}
+  "workspaces": ["apps/web"],
+  "scripts": {
+    "dev:web": "npm --prefix apps/web run dev",
+    "build:web": "npm --prefix apps/web run build"
+  }
 }

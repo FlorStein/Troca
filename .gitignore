@@ -2,4 +2,6 @@ node_modules/
 .next/
 .env*
 outputs/
+apps/web/out/
+apps/web/node_modules/
 *.log
