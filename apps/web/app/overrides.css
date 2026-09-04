@@ -23,8 +23,18 @@ body { font-family: "Plus Jakarta Sans", Arial, sans-serif; }
 .program-grid h3 { margin: 18px 0 9px; font-size: 18px; }
 .program-grid p { margin: 0; color: #64717a; font-size: 13px; line-height: 1.65; }
 .program-note { margin-top: 18px; border-left: 3px solid #566746; padding: 13px 16px; color: #43524d; font-size: 13px; }
+.flight-section { background: #18334b; color: #fff; }
+.flight-section .sectionhead h2, .flight-section .sectionhead p { color: #fff; }
+.flight-section .sectionhead p { opacity: .76; }
+.flight-section .outline { color: #fff; }
+.flight-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.flight-card { position: relative; padding: 23px; border: 1px solid #ffffff3d; border-radius: 15px; background: #ffffff10; }
+.flight-badge { display: inline-block; margin-bottom: 26px; border-radius: 99px; padding: 5px 8px; background: #d5dfcb; color: #244f3d; font-size: 10px; font-weight: 700; }
+.flight-route { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 12px; }
+.flight-route div:last-child { text-align: right; }.flight-route b { font: 600 24px Outfit, sans-serif; }.flight-route small { display: block; margin-top: 4px; color: #d5e0df; font-size: 11px; }.flight-route strong { color: #d8c29d; font-size: 20px; }.flight-card p { margin: 22px 0 0; color: #d5e0df; font-size: 12px; }.flight-note { margin-top: 17px; color: #cbd8d6; font-size: 12px; }
 
 @media (max-width: 760px) {
   .hero .wrap { padding-left: 20px; padding-right: 20px; }
   .program-grid { grid-template-columns: 1fr; }
+  .flight-grid { grid-template-columns: 1fr; }
 }

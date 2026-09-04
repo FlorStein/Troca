@@ -8,4 +8,4 @@ export const hotels=[
  {id:'ganchos',name:'Ponta dos Ganchos',city:'Santa Catarina, Brasil',benefit:'Desayuno incluido',rating:4.9,image:'https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=900&q=85'},
  {id:'balsas',name:'Las Balsas',city:'Villa La Angostura',benefit:'Upgrade de habitación',rating:4.7,image:'https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=900&q=85'}
 ];
-export const plans=[{id:'base',name:'Base',price:6,items:['Hoteles aliados','Beneficios de estadía','Comunidad Troca']},{id:'viajero',name:'Viajero',price:12,items:['Todo lo de Base','Intercambio de casas','3 puntos de bienvenida','Soporte prioritario']}];
+export const plans=[{id:'base',name:'Base',price:6,items:['Hoteles aliados','Beneficios de estadía','Comunidad Troca']},{id:'viajero',name:'Viajero',price:12,items:['Todo lo de Base','Intercambio de casas','3 puntos de bienvenida','Soporte prioritario']},{id:'premium',name:'Premium',price:20,items:['Todo lo de Viajero','Descuentos en vuelos','Hoteles premium','Atención prioritaria']}];
