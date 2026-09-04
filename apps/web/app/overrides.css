@@ -10,6 +10,12 @@
 .hero-copy p { max-width: 520px; }
 .hero .search { max-width: 610px; }
 
+body { font-family: "Plus Jakarta Sans", Arial, sans-serif; }
+.logo { font-family: Outfit, Arial, sans-serif; font-weight: 700; }
+.hero h1, .pagehead h1, .section h2, .travel h2, .value h2, .saving .big, .destinations h2 { font-family: Fraunces, Georgia, serif; }
+.locale-toggle { border: 1px solid #ffffff55; border-radius: 999px; padding: 7px 10px; background: transparent; color: #fff; font-size: 11px; font-weight: 700; }
+.footer .locale-toggle { border-color: #ffffff66; margin-top: 9px; }
+
 @media (max-width: 760px) {
   .hero .wrap { padding-left: 20px; padding-right: 20px; }
 }
