@@ -56,6 +56,7 @@ body { font-family: "Plus Jakarta Sans", Arial, sans-serif; }
 .step-illustration { position: relative; display: grid; place-items: center; width: 112px; height: 112px; margin: 0 auto 12px; border: 1px solid #c9b79f; border-radius: 50%; background: #fffdf9; color: #566746; box-shadow: 0 8px 20px #7e654414; }
 .step-illustration svg { width: 38px; height: 38px; stroke-width: 1.4; }.number { position: absolute; right: -4px; bottom: -4px; width: 32px; height: 32px; background: #566746; color: #fff; font: 700 13px Outfit, sans-serif; }.steps h3 { margin-top: 18px; }
 .membership-explainer { background: #e8ddcd; }
+.testimonials { background: #fffaf4; }.testimonial-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }.testimonial-grid article { display: flex; min-height: 242px; flex-direction: column; padding: 26px; border: 1px solid #e5d7c6; border-radius: 17px; background: #fffdf9; }.testimonial-grid svg { width: 27px; height: 27px; color: #566746; fill: #dfe6d8; }.testimonial-grid p { flex: 1; margin: 18px 0 25px; color: #18334b; font: 500 17px/1.5 Fraunces, Georgia, serif; }.testimonial-grid footer { display: grid; gap: 3px; }.testimonial-grid footer b { font-size: 13px; }.testimonial-grid footer span { color: #64717a; font-size: 11px; }.testimonial-grid .testimonial-featured { border-color: #18334b; background: #18334b; }.testimonial-grid .testimonial-featured svg { color: #d8c29d; fill: #ffffff18; }.testimonial-grid .testimonial-featured p, .testimonial-grid .testimonial-featured footer b { color: #fffdf9; }.testimonial-grid .testimonial-featured footer span { color: #d5e0df; }
 .program-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .program-grid article { background: #fffdf9; border: 1px solid #e5d7c6; border-radius: 15px; padding: 25px; }
 .program-grid span { color: #566746; font: 600 18px Outfit, sans-serif; }
@@ -101,6 +102,7 @@ body { font-family: "Plus Jakarta Sans", Arial, sans-serif; }
   .destinations .sectionhead { margin-bottom: 23px; }
   .program-grid { grid-template-columns: 1fr; }
   .membership-guide, .points-guide, .points-notes, .security-grid { grid-template-columns: 1fr; }
+  .testimonial-grid { grid-template-columns: 1fr; }
   .points-guide h2 { font-size: 37px; }
   .points-notes { grid-column: auto; }
   .security-guide { padding: 28px 20px; border-radius: 17px; }.security-intro h2 { font-size: 37px; }
