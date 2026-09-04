@@ -1,4 +1,5 @@
 html, body { overflow-x: hidden; }
+.back-to-top { position: fixed; z-index: 30; right: 22px; bottom: 22px; display: inline-flex; align-items: center; gap: 7px; padding: 10px 14px; border: 1px solid #ffffff55; border-radius: 999px; background: #18334b; color: #fff; box-shadow: 0 10px 25px #18334b38; font: 700 12px "Plus Jakarta Sans", sans-serif; cursor: pointer; }.back-to-top svg { width: 15px; }.back-to-top:hover { background: #566746; }
 
 /* Final alignment pass for the full-bleed landing hero. */
 .hero:before { background-image: url('/troca-mendoza-hero-v2.png') !important; background-position: center right; }
@@ -77,6 +78,7 @@ body { font-family: "Plus Jakarta Sans", Arial, sans-serif; }
 }
 
 @media (max-width: 760px) {
+  .back-to-top { right: 15px; bottom: 15px; width: 43px; height: 43px; padding: 0; justify-content: center; }.back-to-top span { display: none; }
   .hero .wrap { padding-left: 20px; padding-right: 20px; }
   .hero-immersive { min-height: 625px; }.hero-immersive .hero-copy { padding-left: 20px; padding-right: 20px; }.hero-immersive .search span { white-space: normal; }
   .nav { height: 68px; gap: 13px; }

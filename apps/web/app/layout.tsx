@@ -1,6 +1,7 @@
 import './globals.css';
 import './overrides.css';
 import {I18nProvider} from '@/components/i18n-provider';
+import {BackToTop} from '@/components/back-to-top';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -16,6 +17,6 @@ export default function RootLayout({children}:{children:React.ReactNode}) {
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Outfit:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
   </head><body><I18nProvider>
     <style>{`.hero:before{background-image:url('${basePath}/troca-bariloche-hero-v1.png')!important}`}</style>
-    {children}
+    {children}<BackToTop/>
   </I18nProvider></body></html>;
 }
