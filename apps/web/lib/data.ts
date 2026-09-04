@@ -29,4 +29,8 @@ export const flightRoutes=[
  ['São Paulo','Salvador','GRU','SSA','2 h 25 min','Hasta 12% OFF'],
  ['Córdoba','Florianópolis','COR','FLN','2 h 10 min','Beneficio Premium']
 ] as const;
-export const plans=[{id:'base',name:'Base',price:6,items:['Hoteles aliados','Beneficios de estadía','Comunidad Troca']},{id:'viajero',name:'Viajero',price:12,items:['Todo lo de Base','Intercambio de casas','3 puntos de bienvenida','Soporte prioritario']},{id:'premium',name:'Premium',price:20,items:['Todo lo de Viajero','Descuentos en vuelos','Hoteles premium','Atención prioritaria']}];
+export const plans=[
+ {id:'base',name:'Base',monthlyPrice:6,annualPrice:39,description:'Para viajar sin publicar una casa.',items:['Hoteles aliados','Beneficios de estadía','Comunidad Troca']},
+ {id:'viajero',name:'Viajero',monthlyPrice:12,annualPrice:79,description:'Para intercambiar tu casa y viajar con puntos.',items:['Todo lo de Base','Intercambio de casas','3 puntos de bienvenida','Soporte prioritario']},
+ {id:'premium',name:'Premium',monthlyPrice:20,annualPrice:null,description:'Para sumar beneficios exclusivos de viaje.',items:['Todo lo de Viajero','Descuentos en vuelos','Hoteles premium','Atención prioritaria']}
+];

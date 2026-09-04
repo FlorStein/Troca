@@ -24,6 +24,17 @@ body { font-family: "Plus Jakarta Sans", Arial, sans-serif; }
 .filterwrap .field select { width: 100%; margin-top: 3px; border: 0; outline: 0; appearance: auto; background: transparent; color: #18334b; font: 500 13px "Plus Jakarta Sans", sans-serif; }
 .filterwrap .btn { min-height: 52px; cursor: pointer; }
 .catalog-count { margin: -8px 0 20px; color: #64717a; font-size: 13px; }
+.plan-description { min-height: 38px; margin: 0; color: #64717a; font-size: 12px; line-height: 1.5; }
+.plan.featured .plan-description { color: #d8e2e1; }
+.price-options { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 19px 0 8px; }
+.price-options > div { min-height: 77px; padding: 10px; border: 1px solid #e5d7c6; border-radius: 10px; background: #fffaf3; }
+.plan.featured .price-options > div { border-color: #ffffff35; background: #ffffff10; }
+.price-options small { display: block; color: #64717a; font-size: 10px; text-transform: uppercase; letter-spacing: .06em; }
+.plan.featured .price-options small { color: #d8e2e1; }.price-options strong { display: block; margin-top: 5px; font: 600 19px Outfit, sans-serif; }.price-options strong i { font: 400 10px "Plus Jakarta Sans", sans-serif; }.price-options b { display: block; margin-top: 3px; color: #566746; font-size: 10px; }.plan.featured .price-options b { color: #d8c29d; }
+.plans .plan ul { min-height: 115px; }
+.plan-guide-wrap { margin-top: 62px; }.plan-guide-wrap > h2 { margin-bottom: 22px; }
+.membership-guide { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }.membership-guide article { padding: 24px; border-radius: 15px; background: #f1e9de; }.membership-guide span { color: #566746; font: 700 15px Outfit, sans-serif; }.membership-guide h3 { margin: 15px 0 8px; font-size: 18px; }.membership-guide p { margin: 0; color: #64717a; font-size: 13px; line-height: 1.65; }
+.points-section { background: #f1e9de; }.points-guide { display: grid; grid-template-columns: .9fr 1.1fr; gap: 25px 55px; align-items: center; }.points-guide h2 { margin: 12px 0; font-size: 42px; }.points-guide > div > p { color: #64717a; line-height: 1.65; }.points-rates { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }.points-rates article { padding: 18px 12px; border-radius: 12px; background: #fffdf9; text-align: center; }.points-rates b { display: block; color: #18334b; font: 600 25px Fraunces, serif; }.points-rates span { font-size: 10px; color: #64717a; }.points-rates p { margin: 9px 0 0; color: #566746; font-size: 11px; font-weight: 700; }.points-notes { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; padding-top: 17px; border-top: 1px solid #c9b79f; }.points-notes p { margin: 0; color: #53616a; font-size: 12px; line-height: 1.55; }
 
 .membership-explainer { background: #f1e9de; }
 .program-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
@@ -68,5 +79,8 @@ body { font-family: "Plus Jakarta Sans", Arial, sans-serif; }
   .destinations-section { padding-top: 16px; }
   .destinations .sectionhead { margin-bottom: 23px; }
   .program-grid { grid-template-columns: 1fr; }
+  .membership-guide, .points-guide, .points-notes { grid-template-columns: 1fr; }
+  .points-guide h2 { font-size: 37px; }
+  .points-notes { grid-column: auto; }
   .flight-grid { grid-template-columns: 1fr; }
 }
