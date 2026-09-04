@@ -1,0 +1,15 @@
+/* Final alignment pass for the full-bleed landing hero. */
+.hero .wrap {
+  max-width: none;
+  margin: 0;
+  padding-left: clamp(32px, 10.75vw, 204px);
+  padding-right: 32px;
+}
+
+.hero-copy { max-width: 610px; }
+.hero-copy p { max-width: 520px; }
+.hero .search { max-width: 610px; }
+
+@media (max-width: 760px) {
+  .hero .wrap { padding-left: 20px; padding-right: 20px; }
+}
