@@ -16,8 +16,8 @@ export const hotels=[
 ];
 export const destinations=[
  {id:'mendoza',name:'Mendoza',description:'Viñedos, montaña y sobremesas largas.',image:'https://images.unsplash.com/photo-1665254369274-4b459f3ce48c?auto=format&fit=crop&w=1200&q=85'},
- {id:'buenos-aires',name:'Buenos Aires',description:'Barrios para caminar y cultura viva.',image:'https://images.unsplash.com/photo-1589909202802-8f4aadce1849?auto=format&fit=crop&w=1200&q=85'},
- {id:'florianopolis',name:'Florianópolis',description:'Playas, senderos y ritmo de isla.',image:'https://images.unsplash.com/photo-1515894347712-1d9bd6d8312f?auto=format&fit=crop&w=1200&q=85'},
+ {id:'buenos-aires',name:'Buenos Aires',description:'Obelisco, barrios para caminar y cultura viva.',image:'https://images.unsplash.com/photo-1610307437538-8b57b1ded9eb?auto=format&fit=crop&w=1200&q=85'},
+ {id:'florianopolis',name:'Florianópolis',description:'Playas, senderos y ritmo de isla.',image:'https://images.unsplash.com/photo-1638644447679-60d208ae5875?auto=format&fit=crop&w=1200&q=85'},
  {id:'bariloche',name:'Bariloche',description:'Lagos y bosque patagónico.',image:'https://images.unsplash.com/photo-1643494555111-df0141d84a62?auto=format&fit=crop&w=1200&q=85'},
  {id:'rio',name:'Río de Janeiro',description:'Mar, ciudad y naturaleza.',image:'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=1200&q=85'}
 ];
