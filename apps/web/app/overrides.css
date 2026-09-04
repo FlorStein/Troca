@@ -12,6 +12,13 @@ html, body { overflow-x: hidden; }
 .hero-copy { max-width: 610px; }
 .hero-copy p { max-width: 520px; }
 .hero .search { max-width: 610px; }
+.hero-immersive { min-height: 625px; text-align: center; }
+.hero-immersive::after { background: linear-gradient(180deg, #0c241bc4 0%, #10291b8a 43%, #0c2016ba 100%); }
+.hero-immersive .hero-copy { display: flex; flex-direction: column; align-items: center; max-width: 780px; margin: 0 auto; padding-left: 28px; padding-right: 28px; }
+.hero-immersive .eyebrow { color: #e7d9bd; }.hero-immersive h1 { color: #fffdf9; font-size: clamp(48px, 5.2vw, 72px); letter-spacing: -.045em; }
+.hero-immersive p { color: #edf1e8; max-width: 590px; font-size: 16px; }
+.hero-immersive .search { width: min(700px, 100%); max-width: none; margin-top: 28px; border: 1px solid #ffffff66; box-shadow: 0 15px 35px #07160da3; text-align: left; }
+.hero-immersive .search span { color: #18334b; white-space: nowrap; }.hero-immersive .search span:first-child { flex: 1.35; }
 
 body { font-family: "Plus Jakarta Sans", Arial, sans-serif; }
 .logo { font-family: Outfit, Arial, sans-serif; font-weight: 700; }
@@ -42,8 +49,11 @@ body { font-family: "Plus Jakarta Sans", Arial, sans-serif; }
 
 .how { position: relative; overflow: hidden; background: linear-gradient(135deg, #f1e9de 0%, #eee2d1 100%); }
 .how::after { content: ''; position: absolute; right: -90px; top: -100px; width: 360px; height: 360px; border-radius: 50%; border: 1px solid #c9b79f77; box-shadow: 0 0 0 45px #ffffff19, 0 0 0 90px #ffffff12; pointer-events: none; }
-.how .section { position: relative; z-index: 1; }
-.steps { gap: 18px; }.steps article { min-height: 220px; padding: 25px; border: 1px solid #e1d1bb; border-radius: 17px; background: #fffdf9; box-shadow: 0 12px 28px #7e654414; }.steps article:nth-child(2) { transform: translateY(22px); }.steps article:nth-child(3) { transform: translateY(44px); }.steps h3 { margin-top: 18px; }
+.how .section { position: relative; z-index: 1; }.how-head { justify-content: center; text-align: center; }
+.steps { position: relative; gap: 28px; }.steps::before { content: ''; position: absolute; top: 75px; left: 17%; right: 17%; border-top: 2px dashed #c9b79f; }
+.steps article { position: relative; min-height: 220px; padding: 8px 25px 25px; border-radius: 17px; background: transparent; text-align: center; }
+.step-illustration { position: relative; display: grid; place-items: center; width: 112px; height: 112px; margin: 0 auto 12px; border: 1px solid #c9b79f; border-radius: 50%; background: #fffdf9; color: #566746; box-shadow: 0 8px 20px #7e654414; }
+.step-illustration svg { width: 38px; height: 38px; stroke-width: 1.4; }.number { position: absolute; right: -4px; bottom: -4px; width: 32px; height: 32px; background: #566746; color: #fff; font: 700 13px Outfit, sans-serif; }.steps h3 { margin-top: 18px; }
 .membership-explainer { background: #e8ddcd; }
 .program-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .program-grid article { background: #fffdf9; border: 1px solid #e5d7c6; border-radius: 15px; padding: 25px; }
@@ -68,6 +78,7 @@ body { font-family: "Plus Jakarta Sans", Arial, sans-serif; }
 
 @media (max-width: 760px) {
   .hero .wrap { padding-left: 20px; padding-right: 20px; }
+  .hero-immersive { min-height: 625px; }.hero-immersive .hero-copy { padding-left: 20px; padding-right: 20px; }.hero-immersive .search span { white-space: normal; }
   .nav { height: 68px; gap: 13px; }
   .desktop-nav, .desktop-action { display: none !important; }
   .nav .locale-toggle { margin-left: auto; }
@@ -91,6 +102,6 @@ body { font-family: "Plus Jakarta Sans", Arial, sans-serif; }
   .points-guide h2 { font-size: 37px; }
   .points-notes { grid-column: auto; }
   .security-guide { padding: 28px 20px; border-radius: 17px; }.security-intro h2 { font-size: 37px; }
-  .steps article:nth-child(2), .steps article:nth-child(3) { transform: none; }
+  .steps::before { display: none; }.steps article:nth-child(2), .steps article:nth-child(3) { transform: none; }
   .flight-grid { grid-template-columns: 1fr; }
 }
