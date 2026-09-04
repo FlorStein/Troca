@@ -16,6 +16,15 @@ body { font-family: "Plus Jakarta Sans", Arial, sans-serif; }
 .locale-toggle { border: 1px solid #ffffff55; border-radius: 999px; padding: 7px 10px; background: transparent; color: #fff; font-size: 11px; font-weight: 700; }
 .footer .locale-toggle { border-color: #ffffff66; margin-top: 9px; }
 
+.membership-explainer { background: #f1e9de; }
+.program-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.program-grid article { background: #fffdf9; border: 1px solid #e5d7c6; border-radius: 15px; padding: 25px; }
+.program-grid span { color: #566746; font: 600 18px Outfit, sans-serif; }
+.program-grid h3 { margin: 18px 0 9px; font-size: 18px; }
+.program-grid p { margin: 0; color: #64717a; font-size: 13px; line-height: 1.65; }
+.program-note { margin-top: 18px; border-left: 3px solid #566746; padding: 13px 16px; color: #43524d; font-size: 13px; }
+
 @media (max-width: 760px) {
   .hero .wrap { padding-left: 20px; padding-right: 20px; }
+  .program-grid { grid-template-columns: 1fr; }
 }
