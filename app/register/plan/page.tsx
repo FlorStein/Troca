@@ -1,0 +1,1 @@
+import {Header,Footer,PageHead,PlanCards} from '@/components/ui';export default function Plans(){return <><Header/><main className="wrap appmain"><PageHead title="Elegí tu membresía" text="Cambiá o cancelá cuando quieras. Los primeros 30 días son gratis."/><PlanCards/></main><Footer/></>}
